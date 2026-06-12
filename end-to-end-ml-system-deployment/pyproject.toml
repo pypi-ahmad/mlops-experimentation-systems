@@ -1,0 +1,30 @@
+[project]
+name = "end-to-end-ml-system-deployment"
+version = "0.1.0"
+description = "Compact end-to-end ML system with training, tracking, deployment, and monitoring artifacts."
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "fastapi>=0.136.3",
+    "flaml>=2.6.0",
+    "ipykernel>=7.3.0",
+    "joblib>=1.3.2",
+    "jupyter>=1.1.1",
+    "lazypredict>=0.3.0",
+    "matplotlib>=3.7.5",
+    "mlflow>=3.13.0",
+    "numpy>=1.26.4",
+    "pandas>=2.1.4",
+    "pycaret>=3.3.2",
+    "pydantic>=2.13.4",
+    "scikit-learn>=1.4.2",
+    "scipy>=1.11.4",
+    "seaborn>=0.13.2",
+    "uvicorn>=0.49.0",
+    "xgboost>=3.2.0",
+]
+
+[project.scripts]
+train-model = "src.train:main"
+evaluate-monitoring = "src.evaluate:main"
+run-inference = "src.infer:main"
