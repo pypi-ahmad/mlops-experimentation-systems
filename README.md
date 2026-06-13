@@ -1,32 +1,57 @@
-# Mlops Experimentation Systems
+# mlops-experimentation-systems
+
+## Overview
 
 MLOps foundations and experimentation infrastructure projects.
 
-## Repository Purpose
+## Tech Stack
 
-This repository groups related projects into a single, navigable codebase with consistent structure and indexing.
+- Multi-project repository
 
-## Project Index
+## Repository Structure
 
-| # | Project | Folder | Source Directory | Source Repository | Source Commit |
-|---|---|---|---|---|---|
-| 1 | `end-to-end-ml-system-deployment` | `end-to-end-ml-system-deployment` | `end-to-end-ml-system-deployment` | https://github.com/pypi-ahmad/end-to-end-ml-system-deployment.git | `69352fffbf` |
-| 2 | `experimentation-uplift-modeling` | `experimentation-uplift-modeling` | `experimentation-uplift-modeling` | https://github.com/pypi-ahmad/experimentation-uplift-modeling.git | `6a31727b82` |
-
-## Layout
-
-- Each top-level folder is a standalone project migrated from the source workspace.
-- Heavy local-only artifacts (virtual environments, datasets, model weights, caches) are intentionally excluded.
+- `CHANGELOG.md`
+- `CODE_OF_CONDUCT.md`
+- `CONTRIBUTING.md`
+- `end-to-end-ml-system-deployment/`
+- `experimentation-uplift-modeling/`
+- `LICENSE`
+- `README.md`
+- `SECURITY.md`
 
 ## Getting Started
 
+### Prerequisites
+
+- Git
+- Runtime dependencies for this project's stack
+
+### Installation
+
 ```bash
-git clone <this-repo-url>
-cd <this-repo-folder>
-cd <project-folder>
+Review project-specific setup files in the repository root.
 ```
 
-## Maintenance Notes
+## Usage
 
-- Keep project-level documentation inside each project folder.
-- Use this repository as a curated portfolio layer across related workstreams.
+Use the project's documented entrypoint (CLI/app script) from this repository.
+
+## Testing
+
+Add tests under `tests/` and run the repository's configured test command.
+
+## Security
+
+Please review [SECURITY.md](SECURITY.md) for reporting and handling security issues.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before opening issues or pull requests.
+
+## Changelog
+
+Ongoing changes are tracked in [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+This project is licensed under the terms described in [LICENSE](LICENSE).
