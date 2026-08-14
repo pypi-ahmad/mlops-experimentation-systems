@@ -30,3 +30,5 @@ cd <project-folder>
 
 - Keep project-level documentation inside each project folder.
 - Use this repository as a curated portfolio layer across related workstreams.
+
+<p align="center">Made with ❤️ by Ahmad Mujtaba</p>
